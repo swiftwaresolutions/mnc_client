@@ -1,0 +1,36 @@
+/*--------------------------------------------- MAIN ----------------------*/
+
+
+.clinical-prev-visit-details-container .visit-main-accordian .accordion-item {
+    background-color: var(--bs-accordion-bg);
+    border: 0;
+    margin: 2px 0;
+    /* border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color); */
+}
+
+.clinical-prev-visit-details-container .visit-main-accordian>.accordion-item>.accordion-header>.accordion-button {
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+    padding: 0.7rem 1.25rem;
+    background-color: var(--bs-gray-200);
+    /* color: white; */
+}
+
+.clinical-prev-visit-details-container .visit-main-accordian>.accordion-item>.accordion-header>.accordion-button:not(.collapsed) {
+    /* color: var(--bs-accordion-active-color); */
+    color: white;
+    background-color: var(--bs-gray-800);
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.clinical-prev-visit-details-container .visit-main-accordian .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: var(--bs-teal-900);
+}
+
+.clinical-prev-visit-details-container th ,.clinical-prev-visit-details-container td{
+    padding: 0.2rem 0.2rem;
+}

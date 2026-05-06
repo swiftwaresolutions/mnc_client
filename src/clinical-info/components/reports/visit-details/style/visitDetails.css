@@ -1,0 +1,5 @@
+.clinical-opvisitdetails .accordion-header .accordion-button{
+    /* --bs-accordion-btn-bg:var(--bs-teal) */
+    --bs-accordion-btn-bg:var(--bs-gray-400)
+    
+}

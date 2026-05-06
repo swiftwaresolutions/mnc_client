@@ -1,0 +1,46 @@
+interface NursingIoD{
+    id: Number,
+    patId: Number,
+    visitId: Number,
+    ipId: Number,
+    drain: String,
+    drainDetails: String,
+    inOther: String,
+    inOtherDetails: String,
+    ivf: String,
+    ivfDetails: String,
+    nurseDtmIo: String,
+    oral: String,
+    oralDetails: String,
+    outOther: String,
+    outOtherDetails: String,
+    urine: String,
+    urineDetails: String,
+    inTotal:Number,
+    outTotal:Number,
+    curDtm:string
+}
+
+const NursingIoSaveFormat = {
+    id: 0,
+    patId: 0,
+    visitId: 0,
+    ipId: 0,
+    drain: "",
+    drainDetails: "",
+    inOther: "",
+    inOtherDetails: "",
+    ivf: "",
+    ivfDetails: "",
+    nurseDtmIo: "0000-00-00 00:00:00",
+    oral: "",
+    oralDetails: "",
+    outOther: "",
+    outOtherDetails: "",
+    urine: "",
+    urineDetails: "",
+    inTotal:0,
+    outTotal:0,
+    curDtm:"0000-00-00 00:00:00"
+}
+export { type NursingIoD,NursingIoSaveFormat }

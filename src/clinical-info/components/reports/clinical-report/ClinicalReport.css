@@ -1,0 +1,44 @@
+.clinical-report-container .accordion-item {
+    background-color: var(--bs-accordion-bg);
+    border: 0;
+    margin: 2px 0;
+}
+
+.clinical-report-container .accordion-item ,
+.clinical-report-container .accordion-button {
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.clinical-report-container .accordion-item>.accordion-header>.accordion-button {
+    padding: 0.7rem 1.25rem;
+    background-color: var(--bs-gray-200);
+}
+
+.clinical-report-container .accordion-item>.accordion-header>.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--bs-gray-800);
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.clinical-report-container .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: var(--bs-teal-900);
+}
+
+.clinical-report-container th,
+.clinical-report-container td {
+    padding: 0.2rem 0.2rem;
+}
+
+.clinical-report-container .tab-content {
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.clinical-report-container .nav-link {
+    padding: 0.3rem 1.5rem;
+}

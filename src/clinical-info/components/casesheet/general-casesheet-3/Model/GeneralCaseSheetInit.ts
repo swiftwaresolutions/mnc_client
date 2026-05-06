@@ -1,0 +1,55 @@
+
+export const generalCaseSheetInit = {
+    presentIllness: "",
+    pastHistory: "",
+    treatmentHistory: "",
+    personalHistory: "",
+    investigationHistory: "",
+    allergy: "",
+    menstrualHistory: "",
+    oralCavity: "",
+    cvs: "",
+    res: "",
+    abdominal: "",
+    cns: "",
+    perVaginal: "",
+    oralRectal: "",
+    skin: "",
+    musculoskeletal: "",
+    additionalFindings: "",
+    differentialDiagnosis: "",
+    confirmedDiagnosis: "",
+    medications: "",
+    recomendations: "",
+    proceduresPlanned: "",
+    followUpPlan: "",
+    temperature: "",
+    pulse: "",
+    rr: "",
+    bp: "",
+    spo2: "",
+    height: "0",
+    weight: "0",
+    bmi: "0",
+    examination: "",
+    diagnosis: "",
+    discussion: "",
+    generalComplaints: [{
+        caseSheetType: 1,
+        caseSheetId: 0,
+        complaintId: 0,
+        number: 1,
+        period: "Days",
+        isValid: 1,
+        selectedComplaint: [{ id: 0, name: "" }]
+    }],
+    generalDiagnosis: [
+        {
+            caseSheetType: 1,
+            caseSheetId: 0,
+            diagnosisId: 0,
+            isValid: 1,
+            selectedDiagnosis: [{ id: 0, name: "" }]
+        }
+    ]
+}
